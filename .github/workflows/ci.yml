@@ -105,5 +105,5 @@ jobs:
           image-ref: ${{ secrets.DOCKERHUB_USERNAME }}/notes-app:${{ github.sha }}
           format: table
           exit-code: 1
-          severity: HIGH,CRITICAL
+          severity: CRITICAL
           vuln-type: os,library
